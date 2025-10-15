@@ -1,0 +1,30 @@
+/*
+004b23
+70e000
+* */
+body{
+  background-color: #006400;
+  color: #9ef01a;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+  text-shadow: 1px 1px #004b23;
+}
+
+.c{
+  background-color: #004b23;
+  border-radius: 20px;
+  height: 100%;
+  margin-top: 10px;
+}
+
+button{
+  border-radius: 10px;
+  box-shadow: 3px 3px gray;
+}
+
+#title{
+  border-radius: 8px;
+  margin: 10px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>pnp</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="bootstrap.js"></script>
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1>projects and poems</h1>
+      <div class="row">
+        <div class= "col-md-6">
+          <div class="c">
+            <h2>create new</h2>
+            <form action="/new" method="post">
+              <label for="poem">poem</label>
+              <input type="radio" name="poem" id="poem" value="poem"><br>
+              <label for="project">project</label>
+              <input type="radio" name="opt" id="project" value="project"><br>
+              <input type="text" name="opt" id="title"><br>
+              <button type="send">send</button>
+              <button type="reset">reset</button>
+            </form>
+          </div>
+        </div>
+        <div class= "col-md-6">
+          <div class="c">
+            <p>poems</p>
+            <p>ideas</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
